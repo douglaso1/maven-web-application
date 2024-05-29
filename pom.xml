@@ -102,7 +102,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>DevOps Xpress Snapshot Nexus Repository </name>
-	      <url>http://192.168.28.3:8081/repository/Tesla-snapshots/</url>
+	      <url>http://192.168.28.3:8081/repository/tesla-releases/url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
