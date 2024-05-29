@@ -95,7 +95,7 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>DevOps Xpress Releases Nexus Repository</name>
+	      <name>DevOps Xpress Nexus Repository</name>
 	      <url>http://192.168.28.3:8081/repository/Tesla-releases/</url>
 	    </repository>
 	    
