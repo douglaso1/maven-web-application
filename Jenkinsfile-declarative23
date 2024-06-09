@@ -46,13 +46,13 @@ pipeline{
     failure{
          emailext body: '''Hi Team,
 Build failed
-Devops Xpress''', recipientProviders: [developers(), contributor()], subject: 'build status', to: 'developers'
+DevOps Xpress''', recipientProviders: [developers(), contributor()], subject: 'build status', to: 'developers'
 
     }
     success{
          emailext body: '''Hi Team,
 Build succeeded
-Devops Xpress: 'Hi team', recipientProviders: [developers(), buildUser()], subject: 'Build succeeded', to: 'dougyoky@gmail.com'
+DevOps Xpress: 'Hi team', recipientProviders: [developers(), buildUser()], subject: 'Build succeeded', to: 'dougyoky@gmail.com'
 
     }
     always{
